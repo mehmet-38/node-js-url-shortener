@@ -7,7 +7,7 @@ class UrlTransaction {
     Url.shortUrl = Math.random()
       .toString(36)
       .replace(/[^a-z0-9]/gi, "")
-      .slice(2, 10);
+      .slice(4, 10);
     localStorage.setItem("shortUrl", Url.shortUrl);
     localStorage.setItem("longUrl", Url.longUrl.longUrl);
   }
